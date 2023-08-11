@@ -30,7 +30,7 @@ body {
     outline: none;
     padding: 10px;
     border-radius: 25px;
-    font-size: 15px;
+    font-size: 18px;
     background-color: #7c7c7c2b;
     color: #ffffff;
     width: calc(100% - 100px);
@@ -41,27 +41,34 @@ body {
     outline: none;
     padding: 10px;
     border-radius: 50px;
-    background-color: #7c7c7c2b;
+    background-color: rgba(167, 164, 164, 0.382);
     cursor: pointer;
     float: right;
+    margin-right: 15px;
 }
 
 .img-busca {
     width: 20px;
 }
 
+.botao-busca:hover {
+    background: rgba(167, 164, 164, 0.818);
+    transition: .3s;
+}
+
 .caixa-media {
     margin-top: 30px;
+    margin-left: 15px;
 }
 
 .cidade {
     color: #ffffff;
-    font-size: 28px;
-    font-weight: 300;
+    font-size: 30px;
+    font-weight: 500;
 }
 
 .temp {
-    font-size: 20px;
+    font-size: 25px;
     color: #ffffff;
     margin-top: 20px;
 }
@@ -76,9 +83,11 @@ body {
     color: #ffffff;
     margin-left: 20px;
     text-transform: capitalize;
+    font-size: 20px;
 }
 
 .umidade {
     color: #ffffff;
     margin-top: 20px;
+    font-size: 20px;
 }

@@ -4,10 +4,10 @@ const key = "b151d39c23d5cca29d3273fc8056e988"
 
 function colocarDadosNaTela(dados) {
     console.log(dados)
-    document.querySelector(".cidade").innerHTML = "Tempo em" + dados.name
+    document.querySelector(".cidade").innerHTML = "Tempo em " + dados.name
     document.querySelector(".temp").innerHTML = Math.floor(dados.main.temp) + "ºC"
     document.querySelector(".texto-previsao").innerHTML = dados.weather[0].description
-    document.querySelector(".umidade").innerHTML = dados.main.humidity + "%"
+    document.querySelector(".umidade").innerHTML = "Umidade: " + dados.main.humidity + "%"
     document.querySelector(".img-previsao").src = `https://openweathermap.org/img/wn/${dados.weather[0].icon}.png`
 }
 
