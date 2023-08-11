@@ -16,6 +16,16 @@ body {
     background-image: url("https://source.unsplash.com/1600x900/?landscape");
 }
 
+.titulo-projeto {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 10px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
 .caixa-maior {
     background: #000000;
     opacity: 0.8;
