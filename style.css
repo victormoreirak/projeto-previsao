@@ -11,6 +11,7 @@ body {
     height: 100vh;
     width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url("https://source.unsplash.com/1600x900/?landscape");
@@ -100,4 +101,21 @@ body {
     color: #ffffff;
     margin-top: 20px;
     font-size: 20px;
+}
+
+.credits {
+    color: #ffffff3b;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.credits a {
+    text-decoration: none;
+    color: #ffffff3b;
+}
+
+.credits a:hover {
+    color: #ffffff;
+    transition: .2s;
 }
